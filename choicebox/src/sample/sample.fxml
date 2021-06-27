@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="myLabel" contentDisplay="CENTER" layoutX="52.0" layoutY="70.0" prefHeight="56.0" prefWidth="528.0" text="Select what you'd like to eat" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="myChoicebox" layoutX="225.0" layoutY="167.0" onMouseClicked="#getFood" prefWidth="150.0" />
+   </children>
+</AnchorPane>
